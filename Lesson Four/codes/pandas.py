@@ -1,221 +1,152 @@
-# Creating a Pandas DataFrame
-# import pandas as pd
+# Importing Pandas:
+
 import pandas as pd
- 
-# list of strings
-lst = ['Geeks', 'For', 'Geeks', 'is', 
-            'portal', 'for', 'Geeks']
- 
-# Calling DataFrame constructor on list
-df = pd.DataFrame(lst)
-print(df)
 
 
+# Creating a DataFrame:
 
-# Creating DataFrame from dict of ndarray/lists:
-# Python code demonstrate creating 
-# DataFrame from dict narray / lists 
-# By default addresses.
- 
-import pandas as pd
- 
-# intialise data of lists.
-data = {'Name':['Tom', 'nick', 'krish', 'jack'],
-        'Age':[20, 21, 19, 18]}
- 
-# Create DataFrame
+data = {'Name': ['John', 'Alice', 'Bob'],
+        'Age': [25, 28, 22],
+        'City': ['New York', 'San Francisco', 'Seattle']}
+
 df = pd.DataFrame(data)
- 
-# Print the output.
-print(df)
 
 
-# Dealing with Rows and Columns
-# Import pandas package
+# Viewing Data:
+
+# Display the first few rows
+print(df.head())
+
+# Display basic statistics
+print(df.describe())
+
+
+# Selecting Columns:
+
+# Selecting a single column
+age_column = df['Age']
+
+# Selecting multiple columns
+subset = df[['Name', 'City']]
+
+
+# Filtering Data:
+
+# Filtering based on a condition
+young_people = df[df['Age'] < 30]
+
+
+# Adding a New Column:
+
+# Adding a new column
+df['IsAdult'] = df['Age'] >= 18
+
+
+# Reading Data from a File:
+
+# Reading a CSV file into a DataFrame
+file_path = 'path/to/your/file.csv'
+df = pd.read_csv(file_path)
+
+
+
+# Example of Reading Data and Converting to DataFrame:
+# Name,Age,Salary
+# John,25,50000
+# Alice,30,60000
+# Bob,28,55000
+
+
+# To read this data into a Pandas DataFrame:
 import pandas as pd
- 
-# Define a dictionary containing employee data
-data = {'Name':['Jai', 'Princi', 'Gaurav', 'Anuj'],
-        'Age':[27, 24, 22, 32],
-        'Address':['Delhi', 'Kanpur', 'Allahabad', 'Kannauj'],
-        'Qualification':['Msc', 'MA', 'MCA', 'Phd']}
- 
-# Convert the dictionary into DataFrame 
-df = pd.DataFrame(data)
- 
-# select two columns
-print(df[['Name', 'Qualification']])
 
+# Read CSV file into DataFrame
+df = pd.read_csv('example.csv')
 
-# Indexing and Selecting Data
-# importing pandas package
-import pandas as pd
- 
-# making data frame from csv file
-data = pd.read_csv("nba.csv", index_col ="Name")
- 
-# retrieving columns by indexing operator
-first = data["Age"]
- 
- 
- 
-print(first)
-
-
-
-# Selecting a single row
-# importing pandas package
-import pandas as pd
- 
-# making data frame from csv file
-data = pd.read_csv("nba.csv", index_col ="Name")
- 
-# retrieving row by loc method
-first = data.loc["Avery Bradley"]
-second = data.loc["R.J. Hunter"]
- 
- 
-print(first, "\n\n\n", second)
-
-
-
-# Selecting a single row
-import pandas as pd
- 
-# making data frame from csv file
-data = pd.read_csv("nba.csv", index_col ="Name")
- 
- 
-# retrieving rows by iloc method 
-row2 = data.iloc[3] 
- 
- 
- 
-print(row2)
-
-
-# Working with Missing Data
-# Checking for missing values using isnull() and notnull() :
-# importing pandas as pd
-import pandas as pd
- 
-# importing numpy as np
-import numpy as np
- 
-# dictionary of lists
-dict = {'First Score':[100, 90, np.nan, 95],
-        'Second Score': [30, 45, 56, np.nan],
-        'Third Score':[np.nan, 40, 80, 98]}
- 
-# creating a dataframe from list
-df = pd.DataFrame(dict)
- 
-# using isnull() function  
-df.isnull()
-
-
-# Filling missing values using fillna(), replace() and interpolate() :
-# importing pandas as pd
-import pandas as pd
- 
-# importing numpy as np
-import numpy as np
- 
-# dictionary of lists
-dict = {'First Score':[100, 90, np.nan, 95],
-        'Second Score': [30, 45, 56, np.nan],
-        'Third Score':[np.nan, 40, 80, 98]}
- 
-# creating a dataframe from dictionary
-df = pd.DataFrame(dict)
- 
-# filling missing value using fillna()  
-df.fillna(0)
-
-
-
-# Dropping missing values using dropna() :
-# importing pandas as pd
-import pandas as pd
- 
-# importing numpy as np
-import numpy as np
- 
-# dictionary of lists
-dict = {'First Score':[100, 90, np.nan, 95],
-        'Second Score': [30, np.nan, 45, 56],
-        'Third Score':[52, 40, 80, 98],
-        'Fourth Score':[np.nan, np.nan, np.nan, 65]}
- 
-# creating a dataframe from dictionary
-df = pd.DataFrame(dict)
-   
-df
-
-
-# /Now we drop rows with at least one Nan value (Null value)
-
-# importing pandas as pd
-import pandas as pd
- 
-# importing numpy as np
-import numpy as np
- 
-# dictionary of lists
-dict = {'First Score':[100, 90, np.nan, 95],
-        'Second Score': [30, np.nan, 45, 56],
-        'Third Score':[52, 40, 80, 98],
-        'Fourth Score':[np.nan, np.nan, np.nan, 65]}
- 
-# creating a dataframe from dictionary
-df = pd.DataFrame(dict)
- 
-# using dropna() function  
-df.dropna()
-
-
-
-# Iterating over rows and columns
-# importing pandas as pd
-import pandas as pd
-  
-# dictionary of lists
-dict = {'name':["aparna", "pankaj", "sudhir", "Geeku"],
-        'degree': ["MBA", "BCA", "M.Tech", "MBA"],
-        'score':[90, 40, 80, 98]}
- 
-# creating a dataframe from a dictionary 
-df = pd.DataFrame(dict)
- 
+# Display the DataFrame
 print(df)
 
 
 
-# importing pandas as pd
+# Reading Data with Pandas:
+
+# CSV (Comma-Separated Values):
+
 import pandas as pd
-  
-# dictionary of lists
-dict = {'name':["aparna", "pankaj", "sudhir", "Geeku"],
-        'degree': ["MBA", "BCA", "M.Tech", "MBA"],
-        'score':[90, 40, 80, 98]}
- 
-# creating a dataframe from a dictionary 
-df = pd.DataFrame(dict)
- 
-print(df)
+
+# Reading data from a CSV file
+df_csv = pd.read_csv('your_file.csv')
+
+# Display the DataFrame
+print(df_csv)
 
 
+# Excel:
 
-# Iterating over Columns :
-# importing pandas as pd
 import pandas as pd
-   
-# dictionary of lists
-dict = {'name':["aparna", "pankaj", "sudhir", "Geeku"],
-        'degree': ["MBA", "BCA", "M.Tech", "MBA"],
-        'score':[90, 40, 80, 98]}
-  
-# creating a dataframe from a dictionary 
-df = pd.DataFrame(dict)
- 
-print(df)
+
+# Reading data from an Excel file
+df_excel = pd.read_excel('your_file.xlsx', sheet_name='Sheet1')
+
+# Display the DataFrame
+print(df_excel)
+
+
+# SQL Database:
+
+import pandas as pd
+from sqlalchemy import create_engine
+
+# Creating a SQL connection
+engine = create_engine('sqlite:///your_database.db')
+
+# Reading data from a SQL table
+query = 'SELECT * FROM your_table'
+df_sql = pd.read_sql(query, engine)
+
+# Display the DataFrame
+print(df_sql)
+
+
+
+# JSON:
+
+import pandas as pd
+
+# Reading data from a JSON file
+df_json = pd.read_json('your_file.json')
+
+# Display the DataFrame
+print(df_json)
+Requirements in the Real World:
+
+# Pandas Installation:
+
+# Make sure Pandas is installed. You can install it using:
+# bash
+# Copy code
+# pip install pandas
+# Basic Python Knowledge:
+
+# Familiarity with basic Python syntax is essential for using Pandas effectively.
+# Understanding Data Structures:
+
+# Learn about Pandas data structures, especially DataFrame and Series.
+# Data Cleaning Skills:
+
+# Pandas is often used for data cleaning, so understanding methods like handling missing values and duplicates is crucial.
+# Exploratory Data Analysis (EDA):
+
+# Use Pandas for EDA tasks such as grouping, aggregation, and visualization.
+# Integration with Other Libraries:
+
+# Learn how to integrate Pandas with other libraries like NumPy, Matplotlib, and Seaborn for comprehensive data analysis and visualization.
+# SQL Knowledge (Optional):
+
+# Understanding basic SQL can be helpful when working with Pandas for database-related tasks.
+# Real-world Application:
+
+# Apply Pandas to real-world datasets and problems to gain practical experience.
+# Pandas is an invaluable tool in the data science toolkit, enabling efficient data manipulation and analysis. Learning Pandas will significantly enhance your ability to work with structured data and perform various data-related tasks in the real world.
+
+

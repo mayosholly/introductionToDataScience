@@ -1,0 +1,21 @@
+Introduction to Python NumPy:
+
+NumPy is a powerful numerical computing library in Python that provides support for working with large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. It is a fundamental tool for data scientists, engineers, and researchers, offering efficient and convenient ways to perform numerical operations.
+
+Key Concepts in NumPy:
+
+Arrays:
+
+NumPy's primary data structure is the numpy.ndarray, a powerful array object that can represent vectors, matrices, or higher-dimensional arrays.
+Vectorization:
+
+NumPy enables vectorized operations, allowing you to perform operations on entire arrays at once. This results in concise and efficient code.
+Broadcasting:
+
+Broadcasting allows NumPy to perform operations on arrays of different shapes and sizes, making it easier to work with data of varying dimensions.
+Mathematical Functions:
+
+NumPy provides a vast array of mathematical functions, including basic arithmetic, trigonometry, linear algebra, statistical operations, and more.
+Random Module:
+
+The numpy.random module facilitates the generation of random numbers and sampling from various probability distributions.
