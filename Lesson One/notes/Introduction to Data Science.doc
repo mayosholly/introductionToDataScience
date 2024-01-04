@@ -1,0 +1,57 @@
+Introduction to Data Science
+In a world of data space where organizations deal with petabytes and exabytes of data, the era of Big Data emerged, the essence of its storage also grew. It was a great challenge and concern for industries for the storage of data until 2010. Now when frameworks like Hadoop and others solved the problem of storage, the focus shifted to processing of data. Data Science plays a big role here. All those fancy Sci-fi movies you love to watch around can turn into reality by Data Science. Nowadays it’s growth has been increased in multiple ways and thus one should be ready for our future by learning what it is and how can we add value to it. Without any hunches, let’s dive into the world of Data Science. After touching to slightest idea, you might have ended up with many questions like What is Data Science? Why we need it? How can I be a Data Scientist?? etc? So let’s clear out ourselves from this baffle.
+
+Data science is a field that involves using statistical and computational techniques to extract insights and knowledge from data. It encompasses a wide range of tasks, including data cleaning and preparation, data visualization, statistical modeling, machine learning, and more. Data scientists use these techniques to discover patterns and trends in data, make predictions, and support decision-making. They may work with a variety of data types, including structured data (such as numbers and dates in a spreadsheet) and unstructured data (such as text, images, or audio). Data science is used in a wide range of industries, including finance, healthcare, retail, and more.
+
+Data science is a multidisciplinary field that uses statistical and computational methods to extract insights and knowledge from data. It involves a combination of skills and knowledge from various fields such as statistics, computer science, mathematics, and domain expertise.
+
+The process of data science involves several steps, including data collection, cleaning, exploration, analysis, and interpretation. These steps are often iterative, and the process may be refined based on the results obtained.
+
+
+One of the primary goals of data science is to extract insights from data that can be used to inform decision-making. This may involve identifying patterns or trends in data, making predictions about future outcomes, or identifying opportunities for optimization or improvement.
+
+Data science is used in a wide range of applications, including business, healthcare, social science, engineering, and many others. Some examples of data science applications include fraud detection, personalized marketing, medical diagnosis, predictive maintenance, and recommendation systems.
+
+Data science has become increasingly important in recent years, driven by the growth of big data and the availability of powerful computing resources. As a result, data science has become an in-demand field, and there is a growing demand for professionals with data science skills and expertise.
+
+What is Data Science?
+Data Science is kinda blended with various tools, algorithms, and machine learning principles. Most simply, it involves obtaining meaningful information or insights from structured or unstructured data through a process of analyzing, programming and business skills. It is a field containing many elements like mathematics, statistics, computer science, etc. Those who are good at these respective fields with enough knowledge of the domain in which you are willing to work can call themselves as Data Scientist. It’s not an easy thing to do but not impossible too. You need to start from data, it’s visualization, programming, formulation, development, and deployment of your model. In the future, there will be great hype for data scientist jobs. Taking in that mind, be ready to prepare yourself to fit in this world.
+
+Data science is a field that involves using statistical and computational techniques to extract insights and knowledge from data. It is a multi-disciplinary field that encompasses aspects of computer science, statistics, and domain-specific expertise. Data scientists use a variety of tools and methods, such as machine learning, statistical modeling, and data visualization, to analyze and make predictions from data. They work with both structured and unstructured data, and use the insights gained to inform decision making and support business operations. Data science is applied in a wide range of industries, including finance, healthcare, retail, and more. It helps organizations to make data-driven decisions and gain a competitive advantage.
+
+How Data Science Works?
+Data science is not a one-step process such that you will get to learn it in a short time and call ourselves a Data Scientist. It’s passes from many stages and every element is important. One should always follow the proper steps to reach the ladder. Every step has its value and it counts in your model. Buckle up in your seats and get ready to learn about those steps.
+
+Problem Statement: No work start without motivation, Data science is no exception though. It’s really important to declare or formulate your problem statement very clearly and precisely. Your whole model and it’s working depend on your statement. Many scientist considers this as the main and much important step of Date Science. So make sure what’s your problem statement and how well can it add value to business or any other organization.
+Data Collection: After defining the problem statement, the next obvious step is to go in search of data that you might require for your model. You must do good research, find all that you need. Data can be in any form i.e unstructured or structured. It might be in various forms like videos, spreadsheets, coded forms, etc. You must collect all these kinds of sources.
+Data Cleaning: As you have formulated your motive and also you did collect your data, the next step to do is cleaning. Yes, it is! Data cleaning is the most favorite thing for data scientists to do. Data cleaning is all about the removal of missing, redundant, unnecessary and duplicate data from your collection. There are various tools to do so with the help of programming in either R or Python. It’s totally on you to choose one of them. Various scientist have their opinion on which to choose. When it comes to the statistical part, R is preferred over Python, as it has the privilege of more than 12,000 packages. While python is used as it is fast, easily accessible and we can perform the same things as we can in R with the help of various packages.
+Data Analysis and Exploration: It’s one of the prime things in data science to do and time to get inner Holmes out. It’s about analyzing the structure of data, finding hidden patterns in them, studying behaviors, visualizing the effects of one variable over others and then concluding. We can explore the data with the help of various graphs formed with the help of libraries using any programming language. In R, GGplot is one of the most famous models while Matplotlib in Python.
+Data Modelling: Once you are done with your study that you have formed from data visualization, you must start building a hypothesis model such that it may yield you a good prediction in future. Here, you must choose a good algorithm that best fit to your model. There different kinds of algorithms from regression to classification, SVM( Support vector machines), Clustering, etc. Your model can be of a Machine Learning algorithm. You train your model with the train data and then test it with test data. There are various methods to do so. One of them is the K-fold method where you split your whole data into two parts, One is Train and the other is test data. On these bases, you train your model.
+Optimization and Deployment: You followed each and every step and hence build a model that you feel is the best fit. But how can you decide how well your model is performing? This where optimization comes. You test your data and find how well it is performing by checking its accuracy. In short, you check the efficiency of the data model and thus try to optimize it for better accurate prediction. Deployment deals with the launch of your model and let the people outside there to benefit from that. You can also obtain feedback from organizations and people to know their need and then to work more on your model.
+Advice for new data science students 
+
+Curiosity : If you are not curious , you would not know what to do with the data . 
+Judgmental : It is because if you do not have preconceived notions about the things you wouldn’t know where to begin with .
+Argumentative : It is because if you can argument and if you can plead a case , at least you can start somewhere and then you can learn from data and then can modify your assumptions. 
+Start by gaining a solid understanding of the basics of programming, statistics, and linear algebra.
+Learn the tools of the trade such as Python, R, and SQL. Familiarize yourself with the most popular libraries and frameworks like numpy, pandas, and scikit-learn.
+Practice, practice, practice. Participate in online coding challenges and hackathons to improve your skills and gain experience.
+Learn the basics of machine learning and familiarize yourself with the most popular algorithms.
+Read research papers and stay up-to-date with the latest developments in the field.
+Learn how to communicate your findings effectively. Being able to present your work in a clear and compelling way is just as important as the technical skills you possess.
+Build a portfolio of projects that showcase your skills and experience.
+Network with other data scientists and professionals in the field. Attend meetups and conferences, and connect with people on LinkedIn.
+Be curious, and don’t be afraid to ask questions.
+Finally, don’t be discouraged if you encounter challenges or roadblocks along the way. Learning to become a data scientist is a journey, and it takes time, effort, and dedication to succeed.
+Advantages of data science:
+Improved decision-making: Data science can help organizations make better decisions by providing insights and predictions based on data analysis.
+Cost-effective: With the right tools and techniques, data science can help organizations reduce costs by identifying areas of inefficiency and optimizing processes.
+Innovation: Data science can be used to identify new opportunities for innovation and to develop new products and services.
+Competitive advantage: Organizations that use data science effectively can gain a competitive advantage by making better decisions, improving efficiency, and identifying new opportunities.
+Personalization: Data science can help organizations personalize their products or services to better meet the needs of individual customers.
+Disadvantages of data science:
+Data quality: The accuracy and quality of the data used in data science can have a significant impact on the results obtained.
+Privacy concerns: The collection and use of data can raise privacy concerns, particularly if the data is personal or sensitive.
+Complexity: Data science can be a complex and technical field that requires specialized skills and expertise.
+Bias: Data science algorithms can be biased if the data used to train them is biased, which can lead to inaccurate results.
+Interpretation: Interpreting data science results can be challenging, particularly for non-technical stakeholders who may not understand the underlying assumptions and methods used.

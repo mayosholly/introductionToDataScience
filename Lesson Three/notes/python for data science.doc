@@ -1,0 +1,30 @@
+Python for Data Science – Learn the Uses of Python in Data Science
+In this Python for Data Science guide, we’ll explore the exciting world of Python and its wide-ranging applications in data science. We will also explore a variety of data science techniques used in data science using the Python programming language.
+
+We all know that data Science is applied to gather multiple data sets to collect information, project the insight, and interpret it to make an effective business decision. However, being a data scientist requires you to learn some of the best and most highly used programming languages, such as Java, C++, R, Python, etc. Among these, Python has been considered the preferred choice among data scientists throughout the globe. 
+
+, project the insight,
+
+
+Why Python is Important For Data Science?
+Python has been in demand for the past few years and the recent survey also suggested the same, Python leads the chart among the top programming languages in both the TIOBE index & PYPL Index. However, to support this, there are 5 concrete reasons behind this,
+
+Easy To Learn: Being an open-source platform, Python has a simple and intuitive syntax that is easy to learn and read. This makes it a great language for beginners to learn data science.
+Cross-Platform: Being a developer, you don’t need to worry about the data types. The reason is, Python allows developers to run the code on Windows, Mac OS X, UNIX, and Linux.
+Portable: Being an easy & beginner’s friendly programming language, Python is highly portable in nature which means that a developer can run their code on different machines without making any further changes.
+Extensive Library: Python has several powerful libraries that make data analysis and visualization easy. Pandas is a library for data manipulation and analysis, NumPy is a library for numerical computation, and Matplotlib is a library for data visualization.
+Community Support: Python has a large and active community that supports and contributes to the development of various libraries and tools for data science. This community has created many useful libraries, including Pandas, NumPy, matplotlib, and SciPy, which are widely used in data science.
+However, there are a lot more reasons to opt for Python for Data Science such as OOP, expressive language, the ability to allocate memory dynamically, etc. and that’s the reason for using Python Programming Language for Data Science applications.
+
+Python For Data Science Benefits
+In summary, Python is a popular language for data science because it is easy to learn, has a large and active community, offers powerful libraries for data analysis and visualization, and has excellent machine-learning libraries.
+
+In terms of application areas, Data scientists prefer Python for the following modules:
+
+Data Analysis
+Data Visualizations
+Machine Learning
+Deep Learning
+Image processing
+Computer Vision
+Natural Language Processing (NLP)
